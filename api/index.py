@@ -6,7 +6,14 @@ from datetime import datetime
 import traceback
 import os
 
+
 app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "Hello, Flask!"
+
+
 
 # Get the directory where this file is located
 current_dir = os.path.dirname(os.path.abspath(__file__))
