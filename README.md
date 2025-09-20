@@ -44,7 +44,7 @@ WELLness/
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yuvanyegireddi/WELLness-
+   git clone https://github.com/yuvanyegireddi/WELLness
    cd WELLness
    ```
 2. **Create a virtual environment (optional but recommended)**
